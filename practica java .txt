@@ -1,0 +1,4 @@
+public class java{
+public void main practica{
+}
+}
