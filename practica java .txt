@@ -1,4 +1,7 @@
 public class java{
+Scanner leer = new Scanner();
 public void main practica{
+system.outPrint(hola chicos);
+
 }
 }
