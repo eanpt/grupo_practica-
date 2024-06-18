@@ -17,6 +17,7 @@ public class Practica {
             System.out.println("4. match 4");
             System.out.println("5. par o impar 5");
             System.out.println("6. EUREKA 6");
+            System.out.println("7. length 7 ");
             System.out.println("10. Salir");
             System.out.print("Ingrese una opción: ");
             opcion = scanner.nextInt();
@@ -79,6 +80,17 @@ public class Practica {
                     System.out.println("no has encontrado,la frase");
                     
                   }
+                     break;
+                     case 7:
+                     System.out.println("la opcion que escogiste es la 7 :");
+                     System.out.println("ingrese una frase :");
+                     scanner.nextLine();
+                     String frase2 = scanner.nextLine();
+                     if (frase2.length()==8) {
+                         System.out.println("tu frase es correcta");
+                     } else {
+                        System.out.println("tu frase no es correcta");
+                     }
                      break;
 
                 default:
