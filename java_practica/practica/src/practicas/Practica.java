@@ -18,6 +18,8 @@ public class Practica {
             System.out.println("5. par o impar 5");
             System.out.println("6. EUREKA 6");
             System.out.println("7. length 7 ");
+            System.out.println("8. Substring 8");
+         
             System.out.println("10. Salir");
             System.out.print("Ingrese una opción: ");
             opcion = scanner.nextInt();
@@ -92,6 +94,21 @@ public class Practica {
                         System.out.println("tu frase no es correcta");
                      }
                      break;
+                     case 8:
+                     System.out.println("la opción que escogiste es la 8");
+                     System.out.println("Ingrese una frase: ");
+                     scanner.nextLine();
+                     String oracion = scanner.nextLine();  
+                     String inicial = oracion.substring(0,1);                              
+                     if (inicial.equals("A") ){
+                         System.out.println("Correcto");
+                     } else {
+                        System.out.println("Incorrecto");
+                     }
+                  
+                    break;
+
+
 
                 default:
 
