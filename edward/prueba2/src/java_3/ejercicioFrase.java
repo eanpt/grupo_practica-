@@ -35,7 +35,7 @@ public class ejercicioFrase {
      
           }else{
              sumaIncorrectos ++ ;
-             System.out.println("los jodiiiii");
+             
           }
           /*System.out.println(entrada);*/
         }while (salir == false); 
